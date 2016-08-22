@@ -1,0 +1,7 @@
+<dataSources>
+	<dataSource>
+		<page pageClass="org.suren.autotest.test.SuRenPIHomePage">
+			<field name="searchText" data="selenium" />
+		</page>
+	</dataSource>
+</dataSources>
