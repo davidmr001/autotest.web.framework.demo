@@ -19,6 +19,9 @@ Github：https://github.com/LinuxSuRen/autotest.web.framework.demo
 	<tr>
 	<td>runner</td><td>用xml方式来驱动的示例</td>
 	</tr>
+	<tr>
+	<td>remote</td><td>测试用例脚本和运行的浏览器不在同一台机器的示例</td>
+	</tr>
 </table>
 
 QQ群：52492046
