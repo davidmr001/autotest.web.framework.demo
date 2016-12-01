@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suren:suite xsi:schemaLocation="http://suite.surenpi.com http://autotest.surenpi.com/xsd/suite" pageConfig="baidu_remote.xml" rows="1" lackLines="nearby" errorLines="stop" afterSleep="0" xmlns:suren="http://suite.surenpi.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<suren:page class="org.suren.autotest.test.page.BaiduHomePage">
+		<suren:actions afterSleep="9000" beforeSleep="0" disable="false" repeat="1" rows="1">
+			<suren:action field="keyword" name="fillValue" beforeSleep="0" afterSleep="0" disable="false" repeat="1" rows="1"/>
+			<suren:action field="searchBut" name="click" beforeSleep="0" afterSleep="0" disable="false" repeat="1" rows="1"/>
+		</suren:actions>
+	</suren:page>
+</suren:suite>
