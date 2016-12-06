@@ -22,6 +22,9 @@ Github：https://github.com/LinuxSuRen/autotest.web.framework.demo
 	<tr>
 	<td>remote</td><td>测试用例脚本和运行的浏览器不在同一台机器的示例</td>
 	</tr>
+	<tr>
+	<td>parameter</td><td>动态参数化示例</td>
+	</tr>
 </table>
 
 QQ群：52492046
