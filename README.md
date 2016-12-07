@@ -25,6 +25,9 @@ Github：https://github.com/LinuxSuRen/autotest.web.framework.demo
 	<tr>
 	<td>parameter</td><td>动态参数化示例</td>
 	</tr>
+	<tr>
+	<td>orgin.webdriver</td><td>在AutoTest框架的基础上使用Selenium原生API的示例</td>
+	</tr>
 </table>
 
 QQ群：52492046
