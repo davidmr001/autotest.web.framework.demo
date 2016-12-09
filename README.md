@@ -28,6 +28,9 @@ Github：https://github.com/LinuxSuRen/autotest.web.framework.demo
 	<tr>
 	<td>orgin.webdriver</td><td>在AutoTest框架的基础上使用Selenium原生API的示例</td>
 	</tr>
+	<tr>
+	<td>code</td><td>在AutoTest框架的基础上根据元素定位的配置文件生成Page的Java源码的示例</td>
+	</tr>
 </table>
 
 QQ群：52492046
