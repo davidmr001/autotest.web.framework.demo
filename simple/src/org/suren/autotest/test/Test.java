@@ -1,5 +1,5 @@
 /**
-* Copyright © 1998-2016, Glodon Inc. All Rights Reserved.
+ * http://surenpi.com
 */
 package org.suren.autotest.test;
 
@@ -13,14 +13,14 @@ import org.xml.sax.SAXException;
 public class Test {
 
 	/**
-	 * TODO
 	 * @param args
-	 * @throws SAXException 
-	 * @throws DocumentException 
-	 * @throws IOException 
-	 * @throws InterruptedException 
+	 * @throws IOException
+	 * @throws DocumentException
+	 * @throws SAXException
+	 * @throws InterruptedException
 	 */
-	public static void main(String[] args) throws IOException, DocumentException, SAXException, InterruptedException {
+	public static void main(String[] args) throws IOException, DocumentException,
+		SAXException, InterruptedException {
 		SettingUtil util = new SettingUtil();
 		util.readFromClassPath("baidu.xml");
 		
