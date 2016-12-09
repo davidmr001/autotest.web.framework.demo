@@ -2,8 +2,18 @@
 <suren:autotest xmlns:suren="http://surenpi.com"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://surenpi.com http://autotest.surenpi.com/ ">
-	<suren:engine driver="chrome" />
+	<!-- timeout是全局的隐式超时，单位为秒，可选。 -->
+	<!-- maximize浏览器是否最大化，可选。 -->
+	<suren:engine driver="chrome" maximize="false" timeout="20" />
+	
+	<!-- 这里的engine标签只能有一个，下面是支持的其他浏览器配置示例 -->
+	<!-- 
+	<suren:engine driver="ie" />
+	<suren:engine driver="firefox" />
+	 -->
+	 
 	<suren:pages>
+		<!-- 这里的包名org.suren.autotest.test.page要加载applicationContext.xml中 -->
 		<suren:page class="org.suren.autotest.test.page.BaiduHomePage"
 			url="https://www.baidu.com/">
 			<suren:field name="keyword" byId="kw" />
