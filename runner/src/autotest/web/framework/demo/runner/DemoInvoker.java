@@ -6,7 +6,8 @@ package autotest.web.framework.demo.runner;
 import org.suren.autotest.web.framework.settings.SettingUtil;
 
 /**
- * 在测试套件中调用外部类的实例
+ * 在测试套件中调用外部类的实例</br>
+ * 方法必须是静态、public的
  * @author suren
  * @date 2016年12月12日 下午12:03:29
  */

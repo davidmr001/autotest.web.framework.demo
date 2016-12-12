@@ -6,6 +6,11 @@ import org.dom4j.DocumentException;
 import org.suren.autotest.web.framework.core.suite.SuiteRunner;
 import org.xml.sax.SAXException;
 
+/**
+ * 用测试套件的方式来驱动自动化测试，可以做到完全不需要Java代码
+ * @author suren
+ * @date 2016年12月12日 下午12:13:47
+ */
 public class Test {
 
 	/**
