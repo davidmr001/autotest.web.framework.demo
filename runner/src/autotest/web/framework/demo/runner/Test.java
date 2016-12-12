@@ -19,7 +19,8 @@ public class Test {
 	 * @throws SecurityException
 	 * @throws NoSuchFieldException
 	 */
-	public static void main(String[] args) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException,
+	public static void main(String[] args) throws NoSuchFieldException,
+		SecurityException, IllegalArgumentException, IllegalAccessException, IOException,
 			DocumentException, InterruptedException, SAXException {
 		SuiteRunner.main(new String[] { "baidu_runner.xml" });
 	}
