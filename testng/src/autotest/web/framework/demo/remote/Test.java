@@ -21,7 +21,7 @@ public class Test {
 	 */
 	public static void main(String[] args) throws NoSuchFieldException, SecurityException, IllegalArgumentException, IllegalAccessException, IOException,
 			DocumentException, InterruptedException, SAXException {
-		SuiteRunner.main(new String[] { "baidu_remote_runner.xml" });
+		SuiteRunner.main(new String[] { "baidu_runner_testng.xml" });
 	}
 
 }
