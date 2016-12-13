@@ -5,6 +5,9 @@ Github：https://github.com/LinuxSuRen/autotest.web.framework.demo
 
 博客地址http://surenpi.com/2016/07/18/autotest_web_framework_base_selenium/
 
+#备注：
+整体是一个工程，除lib以外的目录也都个子是一个Java工程
+
 #目录说明：
 <table>
 	<tr>
