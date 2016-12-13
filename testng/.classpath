@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="/autotest.web.framework.demo.git/lib/autotest.web.framework-0.0.2-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="/autotest.web.framework.demo.runner/bin"/>
+	<classpathentry kind="lib" path="/autotest.web.framework.demo.simple/bin"/>
+	<classpathentry kind="lib" path="/autotest.web.framework.demo.datasource/bin"/>
+	<classpathentry kind="lib" path="/autotest.web.framework.demo.git/lib/testng.jar"/>
+	<classpathentry kind="lib" path="/autotest.web.framework.demo.git/lib/jcommander.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
